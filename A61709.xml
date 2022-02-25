@@ -1,0 +1,607 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Strada's musical duel in Latine / much enlarg'd in English by the addition of several traverses between the harper and the nightengale ; together with a more particular account of the issue of the contest.</title>
+            <author>Strada, Famiano, 1572-1649.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1671</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A61709</idno>
+            <idno type="STC">Wing S5780</idno>
+            <idno type="STC">ESTC R33654</idno>
+            <idno type="EEBO-CITATION">13545425</idno>
+            <idno type="OCLC">ocm 13545425</idno>
+            <idno type="VID">100117</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A61709)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100117)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1558:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Strada's musical duel in Latine / much enlarg'd in English by the addition of several traverses between the harper and the nightengale ; together with a more particular account of the issue of the contest.</title>
+                  <author>Strada, Famiano, 1572-1649.</author>
+               </titleStmt>
+               <extent>19 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.W. for William Gilbert ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1671.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-12</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2011-12</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:100117:1"/>
+            <pb facs="tcp:100117:1"/>
+            <p>STRADAS Muſical Duel;</p>
+            <p>IN LATINE, Much Enlarg'd in Engliſh: By the Addition of ſeveral <hi>Traverſes</hi> between the <hi>HARPER</hi> and <hi>NIGHTINGALE;</hi>
+            </p>
+            <p>TOGETHER WITH A more particular Account of the Iſſue of the CONTEST.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>I. W.</hi> for <hi>William Gilbert,</hi> at the Half Moon in St. <hi>Pauls</hi> Church-yard; 1671.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:100117:2"/>
+            <pb facs="tcp:100117:2"/>
+            <head>THE STATIONER To the Reader.</head>
+            <p>
+               <seg rend="decorInit">C</seg>Onſulting mine own, and ſeveral Muſical Friends eaſe and freedom from farther trouble in tranſcri<g ref="char:EOLhyphen"/>bing of Copies; and withall de<g ref="char:EOLhyphen"/>ſigning ſome ſmall Advantage to my ſelf by the Impreſſion; I have thus adventur'd the Publication of this harmleſs Divertiſement; no leſs expoſing my ſelf to the Cenſure of the <hi>AUTHOR,</hi> than his <hi>POEM</hi> to the Judgment of others, whether <hi>POETS,</hi> or <hi>MUSICIANS;</hi> and wiſh I were as well ſecur'd as to my hope of Pardon from him, as he againſt his fear of being condemn'd by them.</p>
+            <closer>
+               <signed>W. G.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="song">
+            <pb facs="tcp:100117:3"/>
+            <pb facs="tcp:100117:3"/>
+            <head>Stradas Muſical Duel, IN LATINE;</head>
+            <p>Firſt imitated in <hi>Engliſh</hi> by Mr. <hi>Craſhaw,</hi> then by Mr. <hi>Hinton;</hi> and now by a <hi>third Hand</hi> ſo <hi>en<g ref="char:EOLhyphen"/>larg'd,</hi> and the whole Frame of the <hi>Poem</hi> ſo alter'd, that little of <hi>Strada</hi> is preſerv'd, ſave onely the <hi>Scene,</hi> and <hi>Iſſue</hi> of the <hi>Duel:</hi> All in a more familiar Style than that of <hi>Claudian</hi> imita<g ref="char:EOLhyphen"/>ted by <hi>Strada.</hi>
+            </p>
+            <lg>
+               <l>THe SUN the <hi>youthful Morn,</hi> and <hi>mid-ag'd Day</hi>
+               </l>
+               <l>Had made; now ſtoopt in <hi>Evenings</hi> elder Ray;</l>
+               <l>When, cloſe by <hi>Tiber,</hi> on a turf-pil'd Plat,</l>
+               <l>Under a well ſpread <hi>Oak's</hi> cool ſhadow, ſat</l>
+               <l>The <hi>Owner,</hi> and (what's more) the <hi>Maſter</hi> too</l>
+               <l>Of a ſweet <hi>Harp;</hi> a Harp that well might go</l>
+               <pb facs="tcp:100117:4"/>
+               <l> For <hi>Miſtreſs</hi> of all Harps; his skilful <hi>Hand,</hi>
+               </l>
+               <l>As well as that his <hi>Thoughts,</hi> could <hi>underſtand;</hi>
+               </l>
+               <l>And, what ſhe underſtood, as well <hi>expound</hi>
+               </l>
+               <l>In the ſweet <hi>Language</hi> of all <hi>Artful</hi> Sound.</l>
+            </lg>
+            <lg>
+               <l>To give long troubled thoughts ſome ſhort re<g ref="char:EOLhyphen"/>poſe,</l>
+               <l>This <hi>Inſtrument,</hi> this <hi>Time,</hi> this <hi>Place</hi> he choſe.</l>
+               <l>The <hi>Inſtrument,</hi> ſuch thoughts as he ſhould treat'em</l>
+               <l>With <hi>grave</hi> to humor, with <hi>ſprack</hi> Air to cheat'em:</l>
+               <l>The <hi>Time,</hi> if <hi>old Cares</hi> might their heat allay</l>
+               <l>By ſympathy with the <hi>old-growing</hi> Day:</l>
+               <l>The <hi>Place,</hi> that Accents, utter'd on the Brim,</l>
+               <l>Might ore-thwart-down-up-ſtream long briskly ſwim,</l>
+               <l>A <hi>Wood-ſide,</hi> that what enter'd ſingle ſound,</l>
+               <l>Might thouſand <hi>Eccho's</hi> multiply'd rebound.</l>
+            </lg>
+            <lg>
+               <l>Nor doth the Place <hi>defeat,</hi> but <hi>over-do</hi>
+               </l>
+               <l>His thoughts; gives with thoſe <hi>Helps</hi> a <hi>Rival</hi> too.</l>
+               <l>For as, this ſlack'ning, ſcrewing that ſtring higher,</l>
+               <l>He, to his humor, <hi>tun'd</hi> his plyant <hi>Lyre;</hi>
+               </l>
+               <l>A <hi>Wood-bred Syren</hi> hearing <hi>(Syren</hi> ſhe</l>
+               <l>As harmleſs, as the <hi>Sea-breed</hi> hurtful be;</l>
+               <pb facs="tcp:100117:4"/>
+               <l> (A <hi>Man</hi> but by the <hi>Ear</hi> takes, thoſe trapan,</l>
+               <l>And by the <hi>Ear alone</hi> take the <hi>Whole Man.)</hi>
+               </l>
+               <l>A <hi>Nightingale,</hi> the <hi>Queen</hi> of a ſweet <hi>Quire,</hi>
+               </l>
+               <l>Her <hi>Empire</hi> deems invaded by the <hi>Lyre.</hi>
+               </l>
+               <l>Upon the <hi>Frontiers</hi> therefore bent to try</l>
+               <l>Her now, ne'er till now, <hi>doubtful Deſtinie;</hi>
+               </l>
+               <l>The ſame <hi>Oak</hi> choſe, her <hi>Ambuſh,</hi> and her <hi>Cage;</hi>
+               </l>
+               <l>And ſo of this fam'd War the honor'd <hi>Stage.</hi>
+               </l>
+               <l>Hence runs ſhe ore the <hi>Gammut</hi> of her throat,</l>
+               <l>And throws the <hi>Harper</hi> back each <hi>tuning</hi> Note.</l>
+               <l>Prevents her <hi>Seaſon</hi> to accept his <hi>Time,</hi>
+               </l>
+               <l>And the proud <hi>Challenge</hi> of his <hi>Lyral</hi> Chime.</l>
+            </lg>
+            <lg>
+               <l>The ſtartled <hi>Harper,</hi> thus <hi>alarm'd,</hi> forth ſends</l>
+               <l>Oft well try'd <hi>Forces</hi> to his <hi>Fingers ends;</hi>
+               </l>
+               <l>Inſtructs his <hi>Harp,</hi> at a ſtrange skilful rate,</l>
+               <l>The <hi>Warlike Trumpet</hi> firſt to imitate;</l>
+               <l>And ſound her own <hi>Charge:</hi> ſtraight, amaz'd, he heard</l>
+               <l>The <hi>Mock</hi> to his <hi>Mock-Trumpet</hi> from the <hi>Bird.</hi>
+               </l>
+               <l>The <hi>Mock-Marine</hi> from that her <hi>Mock</hi> invented,</l>
+               <l>But one <hi>Chord</hi> bears, with many a <hi>Fret</hi> indented.)</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:100117:5"/>
+               <l>Next a ſwift <hi>Prelude</hi> up <hi>Forlorn</hi> he brings,</l>
+               <l>And <hi>lightly</hi> skirmiſhes o're all his <hi>ſtrings.</hi>
+               </l>
+               <l>The <hi>Bird</hi> too her <hi>light-harneſt</hi> Notes forth ſent,</l>
+               <l>And his bore back down to the <hi>Inſtrument.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But then of <hi>Muſick's</hi> War begins the <hi>Dance,</hi>
+               </l>
+               <l>When <hi>Suits</hi> of <hi>Leſſons,</hi> as his <hi>Groſs,</hi> advance;</l>
+               <l>
+                  <hi>Baſes</hi> and <hi>Trebles,</hi> with their <hi>Flats</hi> and <hi>Sharps,</hi>
+               </l>
+               <l>The <hi>Wood</hi> reſounds as all her <hi>Trees</hi> were <hi>Harps:</hi>
+               </l>
+               <l>Enough to make the <hi>Bird</hi> ſuſpect, all made</l>
+               <l>To her Oak-Ambuſh, Counter-Ambuſcade.</l>
+               <l>But unſurpriz'd ſhe lab'ring all her throat,</l>
+               <l>(Her <hi>Foe</hi> her <hi>Judge)</hi> returns him all his Note;</l>
+               <l>The <hi>Wood</hi> more than all hers. He much admires</l>
+               <l>One ſingle Bird <hi>Eccho'd</hi> to many <hi>Quires:</hi>
+               </l>
+               <l>Much more one ſmall throat fully anſwering</l>
+               <l>The <hi>Harp's</hi> profuſe Variety of <hi>String;</hi>
+               </l>
+               <l>And his of <hi>Touch;</hi> the <hi>Tuning, Cliff, Key, Mood,</hi>
+               </l>
+               <l>The <hi>Time</hi> he choſe, all by her <hi>Voice</hi> made Good.</l>
+               <l>The <hi>Leſſons</hi> he, oft ſeen, with much Pains learn'd,</l>
+               <l>She, at firſt hearing, <hi>True, Clean, Sweet</hi> return'd.</l>
+               <pb facs="tcp:100117:5"/>
+               <l> VVithout Book <hi>Pavin-</hi>Grand Pas, <hi>Almain-Trot,</hi>
+               </l>
+               <l>And the <hi>Coronto-Amble</hi> ſo ſoon got.</l>
+               <l>Knew the Falſe-Gallop of the <hi>Saraband:</hi>
+               </l>
+               <l>And could the Full-Speed of the <hi>Jigg</hi> command.</l>
+               <l>VVhat <hi>Leſſons</hi> e're he play'd, <hi>ſung</hi> to the <hi>Life.</hi>
+               </l>
+               <l>Wiſely then ſtints he this vain Part of Strife.</l>
+            </lg>
+            <lg>
+               <l>When ready-preſt cloſe <hi>Compoſition</hi>
+               </l>
+               <l>No whit advanc'd his <hi>War;</hi> he thought upon</l>
+               <l>(His ſweet <hi>Bird-Rival</hi> ſo to over-pow'r;</l>
+               <l>And ſink her in as <hi>ſmart,</hi> as <hi>ſweet</hi> a Show'r)</l>
+               <l>His free looſe <hi>Voluntaries;</hi> in which kind</l>
+               <l>He play'd as ſoft as <hi>A'er,</hi> as ſwift as <hi>Wind.</hi>
+               </l>
+               <l>As 'tis with ſome <hi>Extemporary</hi> Wits;</l>
+               <l>His <hi>ſodain</hi> better were than <hi>ſtudied Hits.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Their <hi>Vortices</hi> with ſwift hand ſtir'd, then he</l>
+               <l>
+                  <hi>Muſick's</hi> looſe <hi>Atomes,</hi> in ſweet <hi>Harmony,</hi>
+               </l>
+               <l>By <hi>Caſual Concurſe</hi> blends; far above theirs,</l>
+               <l>In all, but <hi>Poſture,</hi> who the well-tun'd <hi>Sphears</hi>
+               </l>
+               <l>Whirl in unceſſant <hi>Round;</hi> leaving no place</l>
+               <l>For his <hi>Decorum,</hi> and well-order'd <hi>Grace</hi>
+               </l>
+               <pb facs="tcp:100117:6"/>
+               <l> Of <hi>Pauſe</hi> and <hi>Reſt;</hi> which <hi>Play</hi> as much commend</l>
+               <l>As good <hi>ſhade</hi> Beauty doth to <hi>Picture</hi> lend.</l>
+               <l>As <hi>Parts,</hi> and <hi>Limbs</hi> not more regarded be,</l>
+               <l>Than their due <hi>Diſtance,</hi> in juſt <hi>Symmetry.</hi>
+               </l>
+               <l>Nay <hi>Parts</hi> of <hi>Muſick</hi> theſe, though not of <hi>Sound;</hi>
+               </l>
+               <l>The <hi>Chinks</hi> of this to <hi>fill</hi> up that were found;</l>
+               <l>And the diſcreeter <hi>Silence</hi> of his Strings,</l>
+               <l>As grateful, as their ſweeteſt <hi>Prattleings.</hi>
+               </l>
+               <l>Nor <hi>ſodain Non-plus</hi> was his <hi>ſodain Pauſe:</hi>
+               </l>
+               <l>
+                  <hi>Judgment</hi> as quick as <hi>Phanſie,</hi> here gave <hi>Laws;</hi>
+               </l>
+               <l>As in his <hi>raſh Play;</hi> which <hi>bold,</hi> not <hi>blind</hi> was;</l>
+               <l>Was raſhly <hi>skilful,</hi> skilfuly was <hi>raſh:</hi>
+               </l>
+               <l>All like it <hi>ſelf,</hi> and <hi>him.</hi> But though this <hi>Knack</hi>
+               </l>
+               <l>Had <hi>Idoliz'd</hi> him, with no Common Pack</l>
+               <l>Of unskill'd <hi>Harpers;</hi> Yet he ſtraight ſhall know,</l>
+               <l>He here miſtook his <hi>Weapon,</hi> and his <hi>Foe:</hi>
+               </l>
+               <l>Who hath him now at her wiſh'd Lock; for he</l>
+               <l>Uſing his looſer <hi>Freedom,</hi> ſo doth ſhe.</l>
+               <l>In <hi>Art,</hi> or <hi>Honor</hi> deems her ſelf no more</l>
+               <l>Bound to Returns in <hi>Specie,</hi> as before.</l>
+               <pb facs="tcp:100117:6"/>
+               <l> But, on good Ground, from <hi>Air,</hi> and <hi>Accent</hi> varies</l>
+               <l>(They had not elſe to her been <hi>Voluntaries)</hi>
+               </l>
+               <l>Giving him ſo to underſtand, that ſhe</l>
+               <l>
+                  <hi>Invention</hi> had, as well as <hi>Memorie.</hi>
+               </l>
+               <l>No Deaf-born <hi>Don</hi> was, who in better Tone</l>
+               <l>Could others Words <hi>repeat,</hi> than <hi>ſpeak</hi> his own.</l>
+               <l>Yea, lets him ſee, but ſee full ſore agaſt,</l>
+               <l>He here attacq't Muſick's <hi>Enthuſiaſt.</hi>
+               </l>
+               <l>So her own <hi>Poet,</hi> ſo her own free <hi>Muſe;</hi>
+               </l>
+               <l>That, ſhe her ſelf <hi>encag'd,</hi> her Song is <hi>looſe.</hi>
+               </l>
+               <l>The little <hi>Saw</hi> on her part more than good:</l>
+               <l>She's <hi>born</hi> the <hi>Poet,</hi> and <hi>Muſe</hi> of the <hi>Wood.</hi>
+               </l>
+               <l>Other <hi>inſpir'd</hi> ones Rapture wait from far;</l>
+               <l>And ſometimes long; her <hi>Inſpirations</hi> are</l>
+               <l>Her <hi>Nature;</hi> ſtill <hi>within;</hi> as near <hi>at hand</hi>
+               </l>
+               <l>As ſhe her ſelf; ſtill ready <hi>at Command.</hi>
+               </l>
+               <l>She, when ſhe pleaſe, her ſelf can, in a trice,</l>
+               <l>Raviſh in <hi>Muſick's</hi> ſweeteſt <hi>Rhapſodies:</hi>
+               </l>
+               <l>And pleaſeth now to do ſo; firſt to fill</l>
+               <l>Her little <hi>Breaſt,</hi> the <hi>Store-houſe</hi> of her <hi>Bill,</hi>
+               </l>
+               <pb facs="tcp:100117:7"/>
+               <l> With ſweeteſt <hi>Breath;</hi> then ſend it up to that</l>
+               <l>So ſweetly Chirping <hi>Natu'ral-Flagellat:</hi>
+               </l>
+               <l>To be carv'd out in as ſweet <hi>Tones</hi> of <hi>Voice:</hi>
+               </l>
+               <l>And ſo 't ſtraight was; in thouſand <hi>Wild notes</hi> choice</l>
+               <l>Far above thoſe of <hi>Art;</hi> as, if the ſame</l>
+               <l>For <hi>kind, Wild Fowl</hi> much ſweeter is than <hi>Tame.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Firſt long <hi>unwrinkled</hi> Threads of Voice ſhe ſpun:</l>
+               <l>
+                  <hi>Shorter</hi> next drew, and <hi>finer</hi> many a one.</l>
+               <l>Theſe finely twiſted then ſo <hi>cuts</hi> and <hi>ſhreads,</hi>
+               </l>
+               <l>All, but as Ends, appears of thoſe fine Threads.</l>
+               <l>The firſt was <hi>Nature<g ref="char:punc">▪</g>s Plain-Song,</hi> and her <hi>Grounds;</hi>
+               </l>
+               <l>The next her <hi>Deſcant,</hi> laſt <hi>Diviſions.</hi>
+               </l>
+               <l>Yea, all theſe ſhe ſo <hi>blends,</hi> as her ſmall Breaſt</l>
+               <l>Had been of all ſiz'd <hi>Viols</hi> a full <hi>Cheſt:</hi>
+               </l>
+               <l>And all <hi>together</hi> ſounding in the Hands</l>
+               <l>Of (for all <hi>Parts)</hi> beſt ſkill'd <hi>Muſicians.</hi>
+               </l>
+               <l>For ſhe as well as they, due <hi>Time,</hi> and <hi>Place</hi>
+               </l>
+               <l>Knew for ſweet <hi>Reliſh,</hi> and all other <hi>Grace.</hi>
+               </l>
+               <l>In <hi>Dropping</hi> Notes her <hi>Voice</hi> would ſwifter glide,</l>
+               <l>Than boldeſt <hi>Hand</hi> on <hi>Strings</hi> could Poſting Ride.</l>
+               <pb facs="tcp:100117:7"/>
+               <l> But above all, when on a <hi>Note</hi> ſhe hit,</l>
+               <l>That highly pleaſ'd, ſhe would ſo <hi>gargle</hi> it</l>
+               <l>In a long-winded <hi>Trill;</hi> as loath to part</l>
+               <l>With ſo much ſweetneſs; <hi>Nature</hi> prompting <hi>Art.</hi>
+               </l>
+               <l>Sweet Draughts ſo <hi>Drunkards</hi> on their <hi>Throat-brim</hi> treat:</l>
+               <l>
+                  <hi>Gluttons</hi> roul or'e their <hi>tongues</hi> Teat-bits of meat.</l>
+            </lg>
+            <lg>
+               <l>Here (the Birds <hi>Honor</hi> bad her not repeat)</l>
+               <l>The herein baffl'd <hi>Harper</hi> ſounds <hi>Retreat.</hi>
+               </l>
+               <l>But ſuch <hi>Retreat</hi> he made, as Men deviſe</l>
+               <l>For longer <hi>Leaps</hi> to take a better <hi>Riſe.</hi>
+               </l>
+               <l>Such, as for <hi>Flight</hi> in other Wars they feign,</l>
+               <l>With more Advantage to <hi>fall on</hi> again.</l>
+               <l>So acts our <hi>Harper;</hi> whoſe <hi>Retirements</hi> be</l>
+               <l>But from looſe <hi>Phanſie,</hi> to faſt <hi>Memorie.</hi>
+               </l>
+               <l>When having ſome while run, and ranſack'd o're</l>
+               <l>That <hi>Treaſury</hi> of much well-order'd <hi>Store:</hi>
+               </l>
+               <l>I ha't, he cry'd; <hi>Wood-Cithariſt,</hi> I come</l>
+               <l>With <hi>Off'ring</hi> either for thy <hi>Shrine,</hi> or <hi>Tomb;</hi>
+               </l>
+               <l>As thou reply'ſt; of Croſs-grain'd <hi>Brawls</hi> a <hi>Suit,</hi>
+               </l>
+               <l>Which ſhall as croſſly <hi>finger'd,</hi> ſtrike <hi>thee</hi> Mute;</l>
+               <pb facs="tcp:100117:8"/>
+               <l> Or elſe my <hi>Harp;</hi> whoſe <hi>next</hi> great task muſt be</l>
+               <l>Proud <hi>Triumph,</hi> or her <hi>laſt,</hi> ſad <hi>Obſequie.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>With that, Croſs <hi>Tunings</hi> to Croſs <hi>Fingerings,</hi>
+               </l>
+               <l>Croſs Fing'rings fitting to his <hi>Croſs tun'd</hi> Strings;</l>
+               <l>He Croſs-grain'd <hi>Brawls</hi> performs at ſuch a Rate,</l>
+               <l>His <hi>Harp</hi> ſeems but a ſweeter <hi>Belin's-Gate.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>big budg Baſe grunts, grumbles, growls,</hi> and <hi>grones</hi>
+               </l>
+               <l>'Gainſt the ſhrill <hi>Treble</hi> all his <hi>ſurly Tones.</hi>
+               </l>
+               <l>The <hi>ſlender-waſted Treble</hi> Chirping Chides,</l>
+               <l>And from her high-rais'd <hi>Perch</hi> gibing derides</l>
+               <l>The <hi>Churliſh Baſe.</hi> Theſe Jarrings he makes fall</l>
+               <l>In Tones of right <hi>Hermaphroditiſh</hi> Brawl,</l>
+               <l>'Twixt <hi>Man</hi> and <hi>Woman.</hi> Nor ſo ends the Brangle;</l>
+               <l>But <hi>Baſe</hi> with <hi>Baſe, Treble</hi> with <hi>Treble</hi> wrangle.</l>
+            </lg>
+            <lg>
+               <l>Two <hi>ſullen Baſes,</hi> 'twixt two <hi>Men</hi> as <hi>ſurly,</hi>
+               </l>
+               <l>He makes to repreſent the <hi>Hurly-Burly:</hi>
+               </l>
+               <l>
+                  <hi>Thick, growling Tones</hi> of <hi>foul-mouth'd words</hi> a Throng,</l>
+               <l>And <hi>luſty Thumps</hi> the <hi>ſturdy Blows</hi> among.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Trebles</hi> alone then skilfully he moulds</l>
+               <l>To the right <hi>Accents</hi> of mere <hi>Women-Scolds:</hi>
+               </l>
+               <pb facs="tcp:100117:8"/>
+               <l> Their <hi>Tunings,</hi> far from <hi>
+                     <g ref="char:V">Ʋ</g>niſons,</hi> deſigns</l>
+               <l>For imbred <hi>Diſcords</hi> in the <hi>Female Minds.</hi>
+               </l>
+               <l>When <hi>touch't,</hi> their <hi>jarring Accents</hi> aptly meant</l>
+               <l>The <hi>Quarrels</hi> of <hi>She-Tongues</hi> to repreſent.</l>
+               <l>Upon a <hi>ſofter</hi> touch <hi>ſubmiſſer</hi> Jarrings,</l>
+               <l>Before they <hi>bark't,</hi> the <hi>Dogged</hi> Womens <hi>Snarlings.</hi>
+               </l>
+               <l>When <hi>harder</hi> Strokes yet <hi>harſher</hi> Jars out-hammer;</l>
+               <l>This ſpake the Scolding womens <hi>lowder Clamor.</hi>
+               </l>
+               <l>Many ſuch Strings <hi>together</hi> when he'd ſtrike;</l>
+               <l>
+                  <hi>Confus'd</hi> Brawls of <hi>more</hi> Scolds <hi>at once</hi> 'twas like.</l>
+               <l>Ill <hi>names</hi> when try'd, the Strings knowing him <hi>mean</hi>
+               </l>
+               <l>VVould <hi>ſay, ye filthy Jade! ye dirty Quean!</hi>
+               </l>
+               <l>Yea, <hi>Pinching</hi> of ſuch jarring Strings he'd ſhew</l>
+               <l>
+                  <hi>Scratchings,</hi> as well as <hi>Scoldings,</hi> of that Crew.</l>
+               <l>Streight <hi>rudelyer</hi> handled put 'em to ſuch <hi>Squeeks,</hi>
+               </l>
+               <l>As would exactly render Female <hi>Shrieks.</hi>
+               </l>
+               <l>Some ſhort <hi>Pauſe</hi> made, to work <hi>agen</hi> he'd go:</l>
+               <l>Juſt as ſuch <hi>Scolds,</hi> when <hi>out of breath,</hi> will do.</l>
+            </lg>
+            <lg>
+               <l>And then (his <hi>Maſter-piece)</hi> this <hi>Level-coil</hi>
+               </l>
+               <l>Of <hi>threefold</hi> Scold he blends in <hi>one</hi> great <hi>Broil.</hi>
+               </l>
+               <pb facs="tcp:100117:9"/>
+               <l> Yet ſo, as all <hi>together</hi> heard at <hi>once,</hi>
+               </l>
+               <l>Are heard <hi>apart</hi> too in their <hi>ſeveral</hi> Tones.</l>
+               <l>The <hi>Man</hi> with <hi>Man,</hi> the <hi>Man</hi> with <hi>Woman</hi> hold<g ref="char:EOLhyphen"/>ing</l>
+               <l>Their <hi>Brawl</hi> on foot; <hi>Woman</hi> with <hi>Woman</hi> ſcolding,</l>
+               <l>The <hi>laſt</hi> the <hi>lowd'ſt.</hi> All this of <hi>Vocal</hi> Strife</l>
+               <l>On one poor ſingle <hi>Harp</hi> done to the <hi>Life.</hi>
+               </l>
+               <l>The <hi>Harper's Hands,</hi> than the <hi>Harp's Strings</hi> no leſs</l>
+               <l>Striving, which all this <hi>Strife</hi> could beſt expreſs.</l>
+               <l>His <hi>Thoughts</hi> too with his <hi>Hands</hi> contending; they</l>
+               <l>Beſt to <hi>inſtruct,</hi> and theſe beſt to <hi>obey.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>He laſt of all <hi>Tenor,</hi> and <hi>Mean</hi> ſends in,</l>
+               <l>To <hi>cloſe</hi> the <hi>Ruptures</hi> of this <hi>Brawling</hi> Din.</l>
+               <l>The <hi>Tenor</hi> he too <hi>partially</hi> doth lean</l>
+               <l>Unto the Neighb'ring <hi>Baſe;</hi> but the <hi>juſt Mean,</hi>
+               </l>
+               <l>As <hi>Equal</hi> in <hi>Reſpect,</hi> as <hi>Poſture,</hi> tries</l>
+               <l>To bring the two <hi>Extremes</hi> to <hi>Comprimiſe.</hi>
+               </l>
+               <l>Nor tries in vain; abating Neither's <hi>Noiſe,</hi>
+               </l>
+               <l>He tempers both in due <hi>Harmonious</hi> Poiſe.</l>
+            </lg>
+            <lg>
+               <l>The well-pleaſ'd <hi>Strings</hi> awhile Congratulate</l>
+               <l>This <hi>late</hi> Return to their <hi>old</hi> Friendly State.</l>
+               <pb facs="tcp:100117:9"/>
+               <l> Who, whenſoe'er this <hi>Mock-Brawl</hi> they begun,</l>
+               <l>Still fear'd a <hi>Real Feud</hi> e're they had done.</l>
+               <l>Like <hi>Jeſting</hi> Quarrel mannag'd among Friends,</l>
+               <l>Till <hi>Jeſting</hi> in an <hi>Earneſt</hi> Quarrel ends.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Harper</hi> too breaths now a freeer <hi>A'er:</hi>
+               </l>
+               <l>And all, but 'twixt the <hi>Bird</hi> and him, is fair.</l>
+               <l>His <hi>Stormie</hi> Soul <hi>recalm'd,</hi> he <hi>quiet</hi> lies:</l>
+               <l>Liſt'ning what his <hi>Antagoniſt</hi> replies,</l>
+            </lg>
+            <lg>
+               <l>Alas! his <hi>troubled thoughts</hi> were ſo <hi>transfer'd</hi>
+               </l>
+               <l>To the as <hi>Reſtleſs</hi> now, as <hi>Reſtie</hi> Bird;</l>
+               <l>She fills her <hi>Bag;</hi> and <hi>blows,</hi> and <hi>blows;</hi> but brings</l>
+               <l>Forth Nothing, beyond ſofter <hi>Murmurings.</hi>
+               </l>
+               <l>Sweet little <hi>Soul!</hi> ſhe had accuſtom'd long</l>
+               <l>To pleaſant <hi>Air,</hi> and well-tun'd peaceful <hi>Song.</hi>
+               </l>
+               <l>But could not tune her prettie <hi>Pipe</hi> at all</l>
+               <l>To the <hi>Croſs-Capers</hi> of ſuch <hi>Jarring Brawl.</hi>
+               </l>
+               <l>No leſs to Jarr the <hi>Mock</hi> at loſs for <hi>Strings,</hi>
+               </l>
+               <l>Than of the <hi>Real</hi> one for <hi>Humorings.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Her Hopes all <hi>ruin'd</hi> thus, beyond <hi>Repair;</hi>
+               </l>
+               <l>Her tender <hi>Breaſt,</hi> with <hi>Thorns</hi> of black Deſpair,</l>
+               <pb facs="tcp:100117:10"/>
+               <l> She <hi>prick't,</hi> and <hi>pierc't</hi> through feels; not ſuch, as ſhe</l>
+               <l>Uſ'd to <hi>awake</hi> her to her <hi>Melodie:</hi>
+               </l>
+               <l>But ſuch, wherewith her <hi>Airie Soul</hi> oppreſt</l>
+               <l>Is <hi>Silenc'd</hi> in Eternal <hi>Pauſe,</hi> and <hi>Reſt.</hi>
+               </l>
+               <l>Affording not ſo <hi>Muſical</hi> a Throat</l>
+               <l>For her own <hi>Requiem</hi> one <hi>Fun'eral</hi> Note.</l>
+            </lg>
+            <lg>
+               <l>Deſpairing then of <hi>rallying</hi> Force to ſtand</l>
+               <l>Such freſh <hi>Reſerves</hi> of that all-pow'rful <hi>Hand:</hi>
+               </l>
+               <l>Deſpairing with her <hi>Foe</hi> t' prevail to <hi>yield,</hi>
+               </l>
+               <l>Or with her <hi>Honor</hi> ſo to <hi>quit</hi> the <hi>Field:</hi>
+               </l>
+               <l>Her <hi>Soul</hi> reſolv'd into that finer <hi>Ae'r,</hi>
+               </l>
+               <l>And ſweeter <hi>Number</hi> it's <hi>Ingredients</hi> were.</l>
+               <l>Her ſmall <hi>Corps</hi> on the <hi>Harp</hi> drops <hi>breathleſs</hi> down:</l>
+               <l>That <hi>undue</hi> TROPHEE was no <hi>unmeet</hi> TOMB.</l>
+               <l>APOLLO<hi>'s Prieſt</hi> here, with due <hi>Burial</hi> Rite,</l>
+               <l>Doth MELODY to MELODY commit.</l>
+            </lg>
+            <lg>
+               <l>The Harp now lays her <hi>Emulation</hi> by:</l>
+               <l>Nor Glories in the <hi>Pride</hi> of <hi>Victorie,</hi>
+               </l>
+               <l>But in the <hi>Spoil;</hi> Acceſs the <hi>Dead Corps</hi> brings,</l>
+               <l>
+                  <hi>Embalm'd</hi> in it's own <hi>Sweetneſs,</hi> to her <hi>Strings.</hi>
+               </l>
+               <pb facs="tcp:100117:10"/>
+               <l> The <hi>Soul</hi> too, firſt <hi>retriv'd,</hi> anon <hi>retir'd</hi>
+               </l>
+               <l>Into the <hi>Harp;</hi> which ſweetly thus <hi>inſpir'd</hi>
+               </l>
+               <l>Needs no more FILL of other <hi>Vocal Tone:</hi>
+               </l>
+               <l>It ſelf is VOICE, and INSTRUMENT in <hi>One.</hi>
+               </l>
+               <l>And ſo at Once both <hi>Rings</hi> the <hi>Fun'eral Peal,</hi>
+               </l>
+               <l>And <hi>Sings</hi> the <hi>Requi'em</hi> of ſweet PHILOMEL.</l>
+            </lg>
+         </div>
+         <div type="note">
+            <p>HAd the Author propounded <hi>CLAUDIAN</hi>'s Lofty Stile for his <hi>Imitation</hi> in <hi>Engliſh,</hi> as <hi>STRADA</hi> did in <hi>Latine,</hi> he would have begun thus:</p>
+            <l>
+               <hi>THe SUN</hi> Noon-Throne <hi>deſcending had laid by</hi>
+            </l>
+            <l>
+               <hi>His ROYAL</hi> Robes <hi>of</hi> higheſt <hi>MAJESTY;</hi>
+            </l>
+            <l>
+               <hi>And in a</hi> thinner <hi>Garb of</hi> milder <hi>Ray,</hi>
+            </l>
+            <l>
+               <hi>With</hi> headlong <hi>Courſe, run the</hi> laſt <hi>Stage of Day.</hi>
+            </l>
+            <p>And ſo have proceeded accordingly: But deſign<g ref="char:EOLhyphen"/>ing onely innocent <hi>Drollery,</hi> choſe a <hi>Verſe</hi> nearer <hi>Burleſque</hi> or <hi>Lampoon,</hi> as fitter for that purpoſe.</p>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>
